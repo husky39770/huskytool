@@ -2,7 +2,7 @@
 
 @echo off
 title huskytool Version 0.3
-set textColour=0A
+set textColour=0B
 chcp 65001 >nul
 
 :: huskytool GitHub build ::

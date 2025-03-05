@@ -134,13 +134,11 @@ title huskytool Version 0.3
 echo.
 echo huskytool Version 0.3
 echo.
-echo 1) Colours
-echo 2) Back
+echo 1) Back
 echo.
 set /p choice="Select a number: "
 echo.
-if %choice%==1 goto colours
-if %choice%==2 goto menu
+if %choice%==1 goto menu
 @echo That is not a valid choice.
 echo.
 pause >nul
@@ -180,7 +178,7 @@ echo huskytool Version 0.3
 echo.
 echo Credits
 echo.
-echo Developer - husky39770 :: GitHub name ::
+echo Developer - husky39770
 echo.
 echo 1) Back
 echo.
